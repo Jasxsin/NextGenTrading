@@ -1,0 +1,147 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 2.5rem;
+}
+
+/* nav bar */
+.navbar {
+  background-color: #0F0E0E;
+}
+
+/* title */
+#title {}
+
+.container-fluid {
+  padding: 0;
+}
+
+.header-section {
+  color: white;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  margin: 0px;
+  background-image: url("/Users/jasjotsingh/Web Development/Atom Web Development/Artem Webseite/Images Investment/Überschrift hinzufügen.png");
+}
+
+.header-text {
+  text-align: left;
+  padding: 7% 7%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.button-header {
+  margin-top: 50px;
+  color: #D8C395;
+  border-color: #D8C395;
+}
+
+
+/* features */
+#features {
+  padding: 7% 15%;
+  background-color: #D8C395;
+}
+
+.features-title {
+  font-weight: bold;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+/* testimonials */
+
+#testimonials {
+  background-color: black;
+  color: #D8C395;
+}
+
+.testimonial-text {
+  line-height: 3.5rem;
+  font-size: 2rem;
+}
+
+.testimonial-name {
+  font-style: italic;
+}
+
+.slide{
+  padding: 7% 15%;
+}
+
+/* press */
+
+#press{
+  background-color: black;
+    padding-bottom: 3%;
+}
+
+.testimonials-logo {
+  width: 25%;
+  margin: 20px 20px 50px;
+}
+
+/* personal */
+
+#personal{
+  background-color: #D8C395;
+  color: black;
+}
+
+.button-personal{
+  margin-top: 50px;
+  color: black;
+  border-color: black;
+}
+
+.button-personal:hover{
+  background-color: Black;
+  color: #D8C395;
+  border-color: black;
+}
+
+.profil-picture{
+  width: 100%;
+  margin: 20px 20px 50px;
+}
+
+/* footer */
+
+#footer{
+  background-color: white;
+  color: black;
+}
+
+.copyright-text{
+  margin-bottom: 0;
+}
+
+.nav-footer {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.nav-item {
+  margin-left: 30px;
+  color: black;
+}
+
+.link-footer{
+  color: black;
+}
+
+.link-footer:hover{
+  color: #D8C395;
+}
