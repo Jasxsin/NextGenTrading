@@ -21,6 +21,11 @@ h2 {
   background-color: #0F0E0E;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: #D8C395;
+}
+
+
 /* title */
 #title {}
 
