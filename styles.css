@@ -18,16 +18,30 @@ h2 {
 
 /* nav bar */
 .navbar {
-  background-color: #0F0E0E;
+  font-family: 'Inter', sans-serif;
+  background-color: rgba(0,0,0,1);
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: #D8C395;
+    border-color: #D8C395;
 }
 
+.navbar-dark .navbar-brand {
+    color: #D8C395;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #D8C395;
+    border-color: #D8C395;
+}
 
 /* title */
-#title {}
+#title {
+  background-image: url("/Users/jasjotsingh/Web Development/Atom Web Development/Artem Webseite/Images Investment/Titelbild Vollbild.png");
+}
 
 .container-fluid {
   padding: 0;
@@ -38,7 +52,6 @@ h2 {
   padding-top: 20%;
   padding-bottom: 20%;
   margin: 0px;
-  background-image: url("Überschrift hinzufügen.png");
 }
 
 .header-text {
@@ -64,6 +77,7 @@ h2 {
   font-weight: bold;
   padding-bottom: 10px;
   font-size: 1.5rem;
+  margin-top: 10px;
 }
 
 /* testimonials */
@@ -122,6 +136,10 @@ h2 {
   margin: 20px 20px 50px;
 }
 
+.personal-container{
+  padding: 7% 15%;
+}
+
 /* footer */
 
 #footer{
@@ -129,9 +147,6 @@ h2 {
   color: black;
 }
 
-.copyright-text{
-  margin-bottom: 0;
-}
 
 .nav-footer {
   margin-bottom: 0px;
@@ -149,4 +164,29 @@ h2 {
 
 .link-footer:hover{
   color: #D8C395;
+}
+
+/* sizing */
+
+@media (max-width: 1024px) {
+  #title {
+    background-image: url("/Users/jasjotsingh/Web Development/Atom Web Development/Artem Webseite/Images Investment/Titelbild zugeschnitten.png");
+
+  }
+
+  .testimonial-text {
+    line-height: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .slide{
+    padding: 7% 10%;
+  }
+
+  .testimonials-logo {
+    width: 40%;
+    margin: 20px 20px 50px;
+  }
+
+
 }
