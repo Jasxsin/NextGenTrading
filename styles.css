@@ -40,7 +40,7 @@ h2 {
 
 /* title */
 #title {
-  background-image: url("/Users/jasjotsingh/Web Development/Atom Web Development/Artem Webseite/Images Investment/Titelbild Vollbild.png");
+  background-image: url("Titelbild Vollbild.png");
 }
 
 .container-fluid {
@@ -170,7 +170,7 @@ h2 {
 
 @media (max-width: 1024px) {
   #title {
-    background-image: url("/Users/jasjotsingh/Web Development/Atom Web Development/Artem Webseite/Images Investment/Titelbild zugeschnitten.png");
+    background-image: url("Titelbild zugeschnitten.png");
 
   }
 
